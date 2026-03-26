@@ -1,0 +1,244 @@
+body {
+  margin: 0;
+  font-family: 'Arial Black', Arial, sans-serif;
+  background-color: #0a0a0a;
+  color: #f5f5f5;
+  padding-bottom: 60px;
+}
+
+h1, h2, h3 {
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+a {
+  color: #ffffff;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 10px 15px;
+  background: rgba(0,0,0,0.95);
+  border-bottom: 1px solid #222;
+  color: white;
+}
+
+.logo {
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.hamburger {
+  font-size: 22px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.hamburger:hover {
+  transform: scale(1.1);
+}
+
+.nav-menu {
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  background: black;
+  display: none;
+  flex-direction: column;
+}
+
+.nav-menu.active {
+    display: flex;
+}
+
+.nav-menu a {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.nav-menu a:hover {
+  background: #222;
+}
+
+.hero {
+  height: 100vh;
+  background-image: url("../photos/background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.hero-text {
+  background: rgba(0,0,0,0.7);
+  padding: 25px;
+  border: 1px solid #333;
+}
+
+.hero h1 {
+  font-size: 42px;
+}
+
+.shows {
+  padding: 20px;
+}
+
+.gig {
+  margin-bottom: 20px;
+  background: #0f0f0f;
+  border: 1px solid #222;
+  color: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.gig img {
+  width: 100%;
+  height: auto;
+}
+
+.gig-info {
+  padding: 15px;
+}
+
+.gig a {
+  display: inline-block;
+  margin-top: 10px;
+  background: white;
+  color: black;
+  font-weight: bold;
+  padding: 8px 12px;
+  text-decoration: none;
+}
+
+.shop {
+  padding: 20px;
+}
+
+.social-bar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  background: rgba(0,0,0,0.95);
+  border-top: 1px solid #222;
+
+  padding: 6px 4px;
+}
+
+.social-bar a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+  text-decoration: none;
+
+  gap: 3px;
+  min-width: 60px;
+}
+
+.social-bar i {
+  font-size: 20px;
+}
+
+.social-bar span {
+  font-size: 9px;
+  opacity: 0.7;
+  letter-spacing: 0.5px;
+}
+
+.social-bar a:hover {
+  opacity: 0.7;
+}
+
+.social-bar a:active {
+  transform: scale(0.95);
+}
+
+.booking-hero {
+  padding: 20px;
+  border-bottom: 1px solid #222;
+}
+
+.booking-quick p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.booking-about {
+  padding: 20px;
+  border-bottom: 1px solid #222;
+}
+
+.tech {
+  padding: 20px;
+  border-bottom: 1px solid #222;
+}
+
+.tech img {
+  width: 100%;
+  margin-top: 10px;
+  border: 1px solid #222;
+}
+
+.tech a {
+  display: inline-block;
+  margin-top: 10px;
+  background: white;
+  color: black;
+  padding: 8px 12px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.history {
+  padding: 20px;
+}
+
+.gig-history-item {
+  border: 1px solid #222;
+  padding: 12px;
+  margin-bottom: 12px;
+  background: #0f0f0f;
+}
+
+.gig-history-item p {
+  margin: 4px 0;
+  font-size: 13px;
+}
+
+.booking-contact {
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #222;
+}
+
+.booking-btn {
+  display: inline-block;
+  margin-top: 10px;
+  background: white;
+  color: black;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
