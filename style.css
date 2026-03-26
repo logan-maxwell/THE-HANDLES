@@ -186,6 +186,15 @@ a {
   border-radius: 4px;
 }
 
+@media (min-width: 800px) {
+  body {
+    transform: scale(1.2);
+    transform-origin: top center;
+    width: 700px;
+    margin: 0 auto;
+  }
+}
+
 @media (max-width: 570px) {
   .hero {
     height: 60vh;
