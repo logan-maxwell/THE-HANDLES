@@ -13,5 +13,6 @@
 - [ ] Correct gig history
 - [ ] Add booking about blurb
 - [x] Make gig panels look better
-- [ ] Add home page blurb
+- [x] Add home page blurb
 - [ ] Styling overhaul
+- [ ] Add all future gigs
