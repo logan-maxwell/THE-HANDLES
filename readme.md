@@ -2,10 +2,9 @@
 ## For gig link and tech rider hosting
 
 # TODO
-- [ ] Register domain
-- [ ] Set up domain email
-- [ ] Set up live site
-- [ ] Link domain to site
+- [x] Register domain
+- [x] Set up live site
+- [x] Link domain to site
 - [x] Background images
 - [ ] Stage plot
 - [ ] Tech rider
@@ -14,5 +13,5 @@
 - [ ] Add booking about blurb
 - [x] Make gig panels look better
 - [x] Add home page blurb
-- [ ] Styling overhaul
+- [ ] Desktop scaling fix
 - [ ] Add all future gigs
