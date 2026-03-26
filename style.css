@@ -187,10 +187,14 @@ a {
 }
 
 @media (max-width: 570px) {
+  .hero {
+    height: 60vh;
+  }
+
   .gig {
     height: 35vh;
   }
-  
+
   .gig-content {
     height: 25vh;
     flex-direction: column;
