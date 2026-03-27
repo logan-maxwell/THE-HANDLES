@@ -188,6 +188,15 @@ a {
   border-radius: 4px;
 }
 
+.gig-right a:hover {
+  background: #ddd;
+  transform: translateY(-1px);
+}
+
+.gig-right a:active {
+  transform: scale(0.97);
+}
+
 @media (max-width: 570px) {
   .hero {
     height: 50vh;
