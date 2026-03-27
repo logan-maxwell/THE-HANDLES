@@ -7,11 +7,11 @@
 - [x] Link domain to site
 - [x] Background images
 - [ ] Stage plot
-- [ ] Tech rider
-- [ ] Full spec sheet
-- [ ] Correct gig history
+- [x] Tech rider
+- [x] Full spec sheet
+- [x] Correct gig history
 - [ ] Add booking about blurb
 - [x] Make gig panels look better
 - [x] Add home page blurb
-- [ ] Desktop scaling fix
-- [ ] Add all future gigs
+- [x] Desktop scaling fix
+- [x] Add all future gigs
