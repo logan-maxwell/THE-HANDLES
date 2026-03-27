@@ -205,13 +205,16 @@ a {
   }
 
   .gig-right {
-    width: 90%;
+    width: 100%;
   }
 
   .gig-right a {
     display: block;
-    width: 100%;
+    width: 70%;
     text-align: center;
+    padding: 20px;
+    margin-top: 10%;
+    margin-left: 10%;
   }
 }
 
