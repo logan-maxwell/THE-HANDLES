@@ -15,3 +15,4 @@
 - [x] Add home page blurb
 - [x] Desktop scaling fix
 - [x] Add all future gigs
+- [ ] Redesign home page
