@@ -70,6 +70,8 @@ a {
 
 .hero {
   height: 50vh;
+  margin: auto;
+  max-width: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -101,7 +103,7 @@ a {
 }
 
 .spotify-section {
-  padding: 30px 20px;
+  padding: 10px 20px;
   text-align: center;
 }
 
@@ -188,15 +190,15 @@ a {
 
 @media (max-width: 570px) {
   .hero {
-    height: 60vh;
+    height: 50vh;
   }
 
   .gig {
-    height: 35vh;
+    height: 25vh;
   }
 
   .gig-content {
-    height: 25vh;
+    height: 15vh;
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
@@ -218,6 +220,7 @@ a {
 }
 
 .social-bar {
+  z-index: 3;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -263,71 +266,128 @@ a {
   transform: scale(0.95);
 }
 
-.booking-hero {
+/* ================= BASE SECTION ================= */
+
+.booking-section {
+  position: relative;
   padding: 20px;
-  border-bottom: 1px solid #222;
+
+  background-size: cover;
+  background-position: center;
 }
+
+/* ================= OVERLAY ================= */
+
+.booking-overlay {
+  position: absolute;
+  inset: 0;
+
+  backdrop-filter: blur(3px);
+  background: linear-gradient(
+    to right,
+    rgba(0,0,0,0.85),
+    rgba(0,0,0,0.5)
+  );
+
+  z-index: 1;
+}
+
+/* ================= CONTENT ================= */
+
+.booking-content {
+  position: relative;
+  z-index: 2;
+}
+
+.booking-content.center {
+  text-align: center;
+}
+
+/* ================= TEXT ================= */
 
 .booking-quick p {
   margin: 5px 0;
   font-size: 14px;
 }
 
-.booking-about {
-  padding: 20px;
-  border-bottom: 1px solid #222;
-}
+/* ================= TECH ================= */
 
-.tech {
-  padding: 20px;
-  border-bottom: 1px solid #222;
-}
-
-.tech img {
+.tech-item img {
   width: 100%;
   margin-top: 10px;
   border: 1px solid #222;
+  border-radius: 6px;
 }
 
-.tech a {
-  display: inline-block;
-  margin-top: 10px;
+.download-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 15px;
+  padding: 14px 18px;
+
   background: white;
   color: black;
-  padding: 8px 12px;
-  text-decoration: none;
+
   font-weight: bold;
-  border-radius: 4px;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+
+  text-decoration: none;
+  border-radius: 8px;
+
+  border: 1px solid #000;
+  cursor: pointer;
+
+  transition: all 0.2s ease;
 }
 
-.history {
-  padding: 20px;
+.download-btn:hover {
+  background: #ddd;
+  transform: translateY(-1px);
 }
+
+.download-btn:active {
+  transform: scale(0.97);
+}
+
+/* ================= BUTTON ================= */
+
+.booking-btn {
+  display: inline-block;
+  margin-top: 15px;
+
+  background: white;
+  color: black;
+
+  padding: 12px 16px;
+  font-weight: bold;
+
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.booking-btn:hover {
+  background: #ddd;
+  transform: translateY(-1px);
+}
+
+.booking-btn:active {
+  transform: scale(0.97);
+}
+
+/* ================= HISTORY ================= */
 
 .gig-history-item {
   border: 1px solid #222;
   padding: 12px;
   margin-bottom: 12px;
   background: #0f0f0f;
+  border-radius: 8px;
 }
 
 .gig-history-item p {
   margin: 4px 0;
   font-size: 13px;
-}
-
-.booking-contact {
-  padding: 20px;
-  text-align: center;
-  border-bottom: 1px solid #222;
-}
-
-.booking-btn {
-  display: inline-block;
-  margin-top: 10px;
-  background: white;
-  color: black;
-  padding: 10px 15px;
-  text-decoration: none;
-  font-weight: bold;
 }
