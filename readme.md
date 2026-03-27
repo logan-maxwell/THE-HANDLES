@@ -10,7 +10,7 @@
 - [x] Tech rider
 - [x] Full spec sheet
 - [x] Correct gig history
-- [ ] Add booking about blurb
+- [x] Add booking about blurb
 - [x] Make gig panels look better
 - [x] Add home page blurb
 - [x] Desktop scaling fix
