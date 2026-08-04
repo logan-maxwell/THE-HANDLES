@@ -4,5 +4,5 @@
 # TODO
 - [ ] Stage plot
 - [ ] T-Shirts in store
-- [ ] Update gig history
-- [ ] Update upcoming shows
+- [x] Update gig history
+- [x] Update upcoming shows
