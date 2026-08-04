@@ -5,3 +5,4 @@
 - [ ] Stage plot
 - [ ] T-Shirts in store
 - [ ] Update gig history
+- [ ] Update upcoming shows
